@@ -1,7 +1,8 @@
 package org.example;
 
 public class App {
-  public static void main(String[] args) {
-    // Your code goes here
-  }
+    public static void main(String[] args) {
+        HelloWorld helloWorld = new HelloWorld();
+        System.out.println(helloWorld.getGreeting());
+    }
 }
